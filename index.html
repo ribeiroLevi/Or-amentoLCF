@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Orçamento</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <span>
+      <h1>Orçamento LCF</h1>
+      <form action="">
+        <div>
+          <input
+            type="text"
+            name=""
+            id="peso"
+            placeholder="Peso"
+            class="text"
+          />
+          <input
+            type="text"
+            name=""
+            id="tempo"
+            placeholder="Tempo (min)"
+            class="text"
+          />
+        </div>
+        <div class="input">
+          <h2>Tipo de Material</h2>
+          <div>
+            <input type="checkbox" id="plaRadioType" class="tipo" />
+            <label for="plaRadioType">PLA</label>
+
+            <input type="checkbox" id="absRadioType" class="tipo" />
+            <label for="absRadioType">ABS</label>
+
+            <input type="checkbox" id="petgRadioType" class="tipo" />
+            <label for="petgRadioType">PET G</label>
+          </div>
+        </div>
+        <div class="input">
+          <h2>Erro de Material</h2>
+          <div>
+            <input type="checkbox" id="plaRadioError" />
+            <label for="plaRadioError">PLA</label>
+
+            <input type="checkbox" id="absRadioError" />
+            <label for="absRadioError">ABS</label>
+
+            <input type="checkbox" id="petgRadioError" />
+            <label for="petgRadioError">PET G</label>
+          </div>
+        </div>
+        <div class="input">
+          <h2>Complexidade</h2>
+          <div>
+            <input type="checkbox" id="baixa" />
+            <label for="baixa">Baixa</label>
+
+            <input type="checkbox" id="media" />
+            <label for="media">Média</label>
+
+            <input type="checkbox" id="alta" />
+            <label for="alta">Alta</label>
+          </div>
+        </div>
+      </form>
+      <button id="btn">Gerar</button>
+    </span>
+  </body>
+  <script src="script.js"></script>
+</html>
