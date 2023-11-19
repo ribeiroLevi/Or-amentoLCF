@@ -80,5 +80,5 @@ btn.addEventListener('click', () => {
   );
   */
 
-  alert(`Valor final: ${total}`);
+  alert(`Valor final: R$${total.toFixed(2)}`);
 });
